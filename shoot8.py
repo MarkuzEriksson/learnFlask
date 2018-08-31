@@ -35,6 +35,7 @@ for n in range(0,10000):
         y_lp.pop()
         vx_lp.pop()
         vy_lp.pop()
+        asdasd
         break;
 
 # Plot Shoot 7 vs Shoot 8
