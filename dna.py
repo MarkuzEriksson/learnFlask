@@ -11,19 +11,7 @@ position_x_r = [0]
 position_y_r = [0]
 
 
-while(1==1):
-    char = txt.read(1)
-    if not char:
-        print("End")
-        break
-    if(char=='A'):
-        position_x.append(position_x[len(position_x)-1] + 1)
-        position_y.append(position_y[len(position_y)-1])
-    elif(char=='C'):
-        position_x.append(position_x[len(position_x)-1] - 1)
-        position_y.append(position_y[len(position_y)-1])
-    elif(char=='T'):
-        position_y.append(position_y[len(position_y)-1] + 1)
+
         position_x.append(position_x[len(position_x)-1])
     elif(char=='G'):
         position_y.append(position_y[len(position_y)-1] - 1)
